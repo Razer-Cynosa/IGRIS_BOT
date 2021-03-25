@@ -51,24 +51,24 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello {},My Name is IGRIS
+Hai! {}, Saya adalah bot Mr. Strange
 𝐈 𝐀𝐌 𝐀 𝐑𝐎𝐘𝐀𝐋 𝐊𝐍𝐈𝐆𝐇𝐓 𝐅𝐑𝐎𝐌 𝐒𝐎𝐋𝐎 𝐋𝐄𝐕𝐄𝐋𝐈𝐍𝐆.
-I will help you manage your group.
-TO KNOW MY COMMANDS CLICK /help.
+Saya bisa memmbantu manage group.
+Untuk mengetahui commands klik /help.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
+Hai! My name is *{}*.
 I'm a Shadow From Solo Leveling,I will help you manage your groups! Have a look at the following for an idea of some of \
 the things I can help you with.
 
-*Main* commands available:
- • /help: PM's you this message.
- • /help <module name>: PM's you info about that module.
- • /donate: information on how to donate!
+*Perintah* utama tersedia:
+ • /help: PM Anda dengan pesan ini.
+ • /help <module name>: PM Anda tentang info modul itu.
+ • /donate: Informasi tentang cara menyumbang!
  • /settings:
-   • in PM: will send you your settings for all supported modules.
-   • in a group: will redirect you to pm, with all that chat's settings.
+   • di PM: Akan mengirim anda untuk semua pengaturan yang di dukung.
+   • di grup: Akan mengarahkan anda ke pm dengan semua pengaturan itu.
 
 
 {}
@@ -178,17 +178,17 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(                   
                           [[
                               InlineKeyboardButton(
-                              text="🔥Add IGRIS To Your Group🔥",
+                              text="🔥Add Mr. Strange Ke dalam Grupmu🔥",
                               url="t.me/{}?startgroup=true".format(
                                   context.bot.username))
                           ], 
                           [
                               InlineKeyboardButton(
                               text="🍁Support Group🍁",
-                              url=f"https://t.me/IGRISBOTSUPPORT"),
+                              url=f"https://t.me/caritemanataudoi"),
                               InlineKeyboardButton(
-                              text="✨Updates Channel✨",
-                              url="https://t.me/IGRISROBOT_SUPPORT")
+                              text="✨Owner✨",
+                              url="https://t.me/aestheticboyy2")
                           ]])) 
     else:
         update.effective_message.reply_text(
