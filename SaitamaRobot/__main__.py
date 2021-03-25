@@ -51,15 +51,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hai! {}, Saya adalah bot Mr. Strange
-𝐈 𝐀𝐌 𝐀 𝐑𝐎𝐘𝐀𝐋 𝐊𝐍𝐈𝐆𝐇𝐓 𝐅𝐑𝐎𝐌 𝐒𝐎𝐋𝐎 𝐋𝐄𝐕𝐄𝐋𝐈𝐍𝐆.
-Saya bisa memmbantu manage group.
+Hai! {}, Saya Dr. Strange
+Saya adalah bot dapat membantumu mengelola grup
+Menjadi aman dan menyenangkan.
 Untuk mengetahui commands klik /help.
 """
 
 HELP_STRINGS = """
 Hai! Nama saya *{}*.
-Saya adalah bot manajemen grup dengan beberapa kelebihan dan menyenangkan\
+Saya adalah bot manajemen grup dengan beberapa kelebihan dan menyenangkan.
 dan berikut ini.
 
 *Perintah* utama tersedia:
@@ -178,7 +178,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(                   
                           [[
                               InlineKeyboardButton(
-                              text="🔥Add Mr. Strange Ke dalam Grupmu🔥",
+                              text="🔥Add Dr. Strange Ke dalam Grupmu🔥",
                               url="t.me/{}?startgroup=true".format(
                                   context.bot.username))
                           ], 
