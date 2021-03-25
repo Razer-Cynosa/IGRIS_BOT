@@ -58,9 +58,9 @@ Untuk mengetahui commands klik /help.
 """
 
 HELP_STRINGS = """
-Hai! My name is *{}*.
-I'm a Shadow From Solo Leveling,I will help you manage your groups! Have a look at the following for an idea of some of \
-the things I can help you with.
+Hai! Nama saya *{}*.
+Saya adalah bot manajemen grup dengan beberapa kelebihan dan menyenangkan\
+dan berikut ini.
 
 *Perintah* utama tersedia:
  • /help: PM Anda dengan pesan ini.
@@ -532,7 +532,7 @@ def main():
             updater.bot.set_webhook(url=URL + TOKEN)
 
     else:
-        LOGGER.info("Using long polling.")
+        LOGGER.info("Dr. Strange telah aktif.")
         updater.start_polling(timeout=15, read_latency=4, clean=True)
 
     if len(argv) not in (1, 3, 4):
