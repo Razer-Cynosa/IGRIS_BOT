@@ -51,7 +51,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hai! {}, Saya Dr. Strange
+Hai! {}, Saya Roronoa Zoro
 Saya adalah bot dapat membantumu mengelola grup
 Menjadi aman dan menyenangkan.
 Untuk mengetahui commands klik /help.
@@ -59,7 +59,8 @@ Untuk mengetahui commands klik /help.
 
 HELP_STRINGS = """
 Hai! Nama saya *{}*.
-Saya adalah bot manajemen grup dengan beberapa kelebihan dan menyenangkan.
+Saya adalah bot manajemen grup dengan
+beberapa kelebihan dan menyenangkan.
 dan berikut ini.
 
 *Perintah* utama tersedia:
@@ -77,10 +78,10 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/3d6b5ac78befd0bffac47.mp4"
+SAITAMA_IMG = "https://telegra.ph/file/d1b27baeaaeca127ceae5.jpg"
 
 DONATE_STRING = """donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+There are two ways of supporting him; [PayPal](-), or [Monzo](-)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -178,7 +179,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(                   
                           [[
                               InlineKeyboardButton(
-                              text="🔥Add Dr. Strange Ke dalam Grupmu🔥",
+                              text="☠Add Roronoa Zoro Ke dalam Grupmu☠",
                               url="t.me/{}?startgroup=true".format(
                                   context.bot.username))
                           ], 
@@ -532,7 +533,7 @@ def main():
             updater.bot.set_webhook(url=URL + TOKEN)
 
     else:
-        LOGGER.info("Dr. Strange telah aktif.")
+        LOGGER.info("Roronoa Zoro telah aktif ☠.")
         updater.start_polling(timeout=15, read_latency=4, clean=True)
 
     if len(argv) not in (1, 3, 4):
