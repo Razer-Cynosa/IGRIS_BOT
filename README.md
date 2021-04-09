@@ -9,7 +9,7 @@ Originally a Marie fork, IGRIS evolved further and was built to be more robust a
 
 Can be found on telegram as [ZOROXBOT](https://t.me/BotZoroXbot).
 
-The Support group can be reached out to at [SOLO•GUILD](https://t.me/caritemanataupacar), where you can ask for help about [ZOROXBOT](https://t.me/aestheticboyy2),discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [SOLO•GUILD](https://t.me/RoronoaZoro_Xbot), where you can ask for help about [ZOROXBOT](https://t.me/aestheticboyy2),discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 
 
