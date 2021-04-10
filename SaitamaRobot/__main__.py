@@ -78,7 +78,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/d1b27baeaaeca127ceae5.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/368ec89d8a64c8257cd37.mp4"
 
 DONATE_STRING = """donate to the original writer of the Base code, Paul
 There are two ways of supporting him; [PayPal](-), or [Monzo](-)."""
@@ -179,7 +179,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(                   
                           [[
                               InlineKeyboardButton(
-                              text="☠Add Roronoa Zoro Ke dalam Grupmu☠",
+                              text="☠ Add Roronoa Zoro Ke dalam Grupmu ☠",
                               url="t.me/{}?startgroup=true".format(
                                   context.bot.username))
                           ], 
